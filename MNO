@@ -1,0 +1,14 @@
+import "./globals.css";
+
+export const metadata = {
+  title: "Office & Stock Pro",
+  description: "Inventory and Office Management System",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
